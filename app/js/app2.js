@@ -15,7 +15,7 @@ phonecatApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/phones', {
-        templateUrl: 'partials/phone-list.html',
+        templateUrl: 'partials/phone-list2.html',
         controller: 'PhoneListCtrl2'
       }).
       when('/phones/:phoneId', {

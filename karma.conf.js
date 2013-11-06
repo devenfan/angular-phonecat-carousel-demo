@@ -14,13 +14,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-        'app/lib/angular/angular.js',
-        'app/lib/angular/angular-*.js',
+        'app/lib/angular-v1.1.5/angular.js',
+        'app/lib/angular-v1.1.5/angular-*.js',
+        'app/lib/angular-v1.1.5/angular-mocks.js',
 
-        // Attention:
-        // angular-scenario.js cannot be included, otherwise you will get
-        // "Empty test suite." inside test result.
-        'test/lib/angular/angular-mocks.js',
+        'app/lib/angular-carousel-v0.0.8/angular-carousel.js',
 
         'app/js/**/*.js',
         'test/unit/*Spec.js'
@@ -30,7 +28,11 @@ module.exports = function(config) {
     // list of files to exclude
     exclude: [
         'karma.conf.js',
-        'app/lib/angular/angular-scenario.js'
+
+        // Attention:
+        // angular-scenario.js cannot be included, otherwise you will get
+        // "Empty test suite." inside test result.
+        'app/lib/angular-v1.1.5/angular-scenario.js'
     ],
 
 
