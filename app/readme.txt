@@ -1,0 +1,1 @@
+Use index2.html instead.
