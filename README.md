@@ -22,7 +22,7 @@ For study purpose.
 - http://karma-runner.github.io/
 
 ### Jasmine
-- http://pivotal.github.io/jasmine/
+- https://jasmine.github.io/
 
 
 ## Libraries
